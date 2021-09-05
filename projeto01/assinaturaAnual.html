@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/estilo.css" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+        <title>Revista Falar de Carro</title>
+    </head>
+<body class="conteudo">
+    <header>
+        <h2>Assinatura Anual</h2>
+        <p>250,00<p>
+    </header>
+    <main>
+        <form method="POST" action="">
+            <fieldset>
+                <legend class="dados">Dados pessoais</legend>
+                <label>Nome Completo: </label>
+                <input type="text" name="name" required>
+                <label>CPF: </label>
+                <input type="text" name="CPF" required>
+                <label>CEP: </label>
+                <input type="number" name="CEP" required>
+                <label>Endereço: </label>
+                <input type="text" name="endereco" required>
+                <label>Complemento: </label>
+                <input type="number" name="complemento" required>
+                <label>Cidade: </label>
+                <input type="text" name="cidade" required>
+                <label>Celular: </label>
+                <input type="number" name="telefone" required>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <form method="POST" action="">
+            <fieldset>
+                <legend class="dados">Criar login</legend>
+                <label>E-mail</label>
+                <input type="email" name="email" required>
+                <label>Confirme o Email</label>
+                <input type="email" name="confirmaEmail" required>
+                <label>Senha</label>
+                <input type="password" name="senha" required>
+                <label>Confirme a senha</label>
+                <input type="password" name="confirmaSenha" required>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </form>
+    </main>
+    <a class="button" href="index.html"><button>Voltar para página inicial</button></a>
+</body>
+</html>

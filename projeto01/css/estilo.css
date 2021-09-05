@@ -1,0 +1,190 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.conteudo {
+    width: 100%;
+    max-width: 648px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    background-color: #7CCAEC
+}
+header section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+header section picture {
+    width: 20%;
+}
+header section picture img {
+    margin-left: -3rem;
+    padding: 0.3rem;
+    width: 2rem;
+}
+header section h1 {
+    font-size: 2.5rem;
+    width: 80%;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    padding-top: 0.5rem;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+header nav ul {
+    padding: 0%;
+    margin: 0rem;
+    font-size: 1.1rem;
+}
+header nav ul li {
+    margin: 0rem;
+    padding: 0rem;
+    padding-right: 0rem;
+    display: inline;
+    list-style: none;
+}
+header nav ul li a{
+    padding-top: 0.5rem;
+}
+.left {    
+    padding-bottom: 0.5rem;
+    padding-inline-end: 5rem;
+    padding-inline-start: 5rem;
+}
+.right {
+    padding-bottom: 0.5rem;
+    margin-left: 2.6rem;
+    padding-inline-end: 5rem;
+    padding-inline-start: 5rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: grey;
+    font-family: 'Playfair Display', serif;
+}
+nav ul li a:hover {
+    background-color: #65c3eb;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    
+}
+.pag12 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pag12 section h2{
+    padding: 4rem;
+    background-color: grey;
+    margin: 2rem 0;
+}
+.pag12 picture img {
+    width: 100%;
+}
+.pag12 ul {
+    display: flex;
+    flex-direction: row;
+}
+.pag12 ul picture {
+    width: 2rem;
+}
+
+/*PAGINAS 3 E 4*/
+.pag34 {
+    display: flex;
+    flex-direction: column;
+}
+.pag34 h2 {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+.pag34 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pag34 picture {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    display: center;
+}
+.pag34 div picture section h3{
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    background-color: grey;
+}
+.pag34 picture img{
+    margin-left: 4rem;
+    padding: 0;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vs{
+    padding-top: 9.87rem;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 20%;
+}
+.vs h3 {
+    padding: 3rem;
+}
+#ford {
+    margin-left: 2rem;
+    padding-bottom: 0.5rem;
+    width: 194px;
+}
+.dados{
+    font-size: 1.8rem;
+    display: flex;
+    text-align: center;
+}
+.button {
+    text-align: center;
+}   
+input {
+    background-color: cornsilk;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.redes {
+    list-style: none;
+    display: flex;
+}
+.redes section {
+    display: flex;
+    padding-bottom: 2rem;
+}
+.redes section img {
+    display: flex;
+    width: 6.2rem;
+    padding-top: 1.28rem;
+}
+#instagram {
+    padding-top: 0.45rem;
+}
+.redes div {
+    margin-left: 11.1rem;
+}
+.redes div img {
+    width: 4rem;
+}
