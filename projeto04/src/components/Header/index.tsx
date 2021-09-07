@@ -8,9 +8,9 @@ const Header = () => {
                 <picture>
                     <img id="menu" src={logo} alt="menu"/>
                 </picture>
-                    <h1>
-                        <a href="index.html">Falar DE CARRO</a>
-                    </h1>
+                <h1>
+                    <a className="centralize" href="index.html"> Falar DE CARRO</a>
+                </h1>
             </section>
             <nav>
                 <ul>
