@@ -9,12 +9,15 @@ export default createGlobalStyle`
         font-display: swap;
         src: url('https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd3vXDXbtM.woff2') format('woff2');
     }
+    body{
+        width: 100%;
+        max-width: 648px;
+        width: 100%;
+        margin: 0 auto;
+    }
     *{
         border: 0;
         margin: 0;
-        width: 100%;
-        max-width: 648px;
-        margin: 0 auto;
     }
 `
 export const font = {

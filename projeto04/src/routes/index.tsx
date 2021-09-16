@@ -1,10 +1,14 @@
 import { Switch, Route } from "react-router-dom"
-import {Home} from "pages"
+import {Home, Pag1, Pag2, Pag3, Pag4} from "pages"
 
 const Routes = () => {
     return (
         <Switch>
-            <Route path="/" component={Home} />
+            <Route path="/" exact component={Home} />
+            <Route path="/pag1" exact component={Pag1} />
+            <Route path="/pag2" exact component={Pag2} />
+            <Route path="/pag3" exact component={Pag3} />
+            <Route path="/pag4" exact component={Pag4} />
         </Switch>
     );
 };

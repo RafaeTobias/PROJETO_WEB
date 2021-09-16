@@ -1,8 +1,9 @@
-import {Header} from "components";
+import {Header, Principal1} from "components"
 
 const Home = () => {
     return <> 
         <Header/> 
+        <Principal1/> 
     </>;
 
 };

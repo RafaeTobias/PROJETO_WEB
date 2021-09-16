@@ -45,7 +45,7 @@ export const Header = styled.header`
     }
     nav {
         padding-top: 0.5rem;
-        background-color: white;
+        background-color: ${colors.white};
         margin: 0;
         display: flex;
         flex-direction: row;
@@ -66,15 +66,15 @@ export const Header = styled.header`
         padding-top: 0.5rem;
     }
     .left {    
-        padding-bottom: 0.5rem;
-        padding-inline-end: 5rem;
-        padding-inline-start: 5rem;
+    padding-bottom: 0.5rem;
+    padding-inline-end: 5rem;
+    padding-inline-start: 5rem;
     }
     .right {
-        padding-bottom: 0.5rem;
-        margin-left: 2.6rem;
-        padding-inline-end: 5rem;
-        padding-inline-start: 13%;
+    padding-bottom: 0.5rem;
+    margin-left: 2.9rem;
+    padding-inline-end: 5rem;
+    padding-inline-start: 5rem; 
     }
     nav ul li a {
         text-decoration: none;
