@@ -1,5 +1,6 @@
 import * as S from "./styles"
 import logo from "assets/img/Group 1.svg"
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
@@ -9,16 +10,16 @@ const Header = () => {
                     <img id="menu" src={logo} alt="menu"/>
                 </picture>
                 <h1>
-                    <a className="centralize" href="index.html"> Falar DE CARRO</a>
+                    <Link className="centralize" to="">Falar DE CARRO</Link>
                 </h1>
             </section>
             <nav>
                 <ul>
                     <li>
-                        <a className="left" href="assinaturaMensal.html" target="_blank">Assinatura Mensal</a>
+                        <Link  to="/" className="left">Assinatura Mensal</Link>
                     </li>
-                    <li>
-                        <a className="right" href="AssinaturaAnual.html" target="_blank">Assinatura Anual</a>
+                    <li >
+                        <Link to="/" className="right">Assinatura Anual</Link>
                     </li>
                 </ul>
             </nav>
