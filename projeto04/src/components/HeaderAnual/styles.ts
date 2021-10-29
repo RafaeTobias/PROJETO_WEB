@@ -7,4 +7,9 @@ export const Header = styled.header`
     display: flex;
     flex-direction: column;
     background-color: ${colors.blue};
+
+    h2 link{
+        text-decoration: none;
+        color: blue;
+    }
 `

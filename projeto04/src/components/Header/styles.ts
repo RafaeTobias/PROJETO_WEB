@@ -33,11 +33,12 @@ export const Header = styled.header`
         width: 2rem;
     }
     section h1 a{
+        padding-top: 0.5rem;
         color: black;
         text-decoration: none;
         font-size: 2.5rem;
         width: 80%;
-        margin-left: 5rem;
+        margin-left: 4.8rem;
         display: flex;
         align-items: center;
         background-color: ${colors.black};

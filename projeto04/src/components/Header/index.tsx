@@ -10,16 +10,16 @@ const Header = () => {
                     <img id="menu" src={logo} alt="menu"/>
                 </picture>
                 <h1>
-                    <Link className="centralize" to="">Falar DE CARRO</Link>
+                    <Link className="centralize" to="/Home">Falar DE CARRO</Link>
                 </h1>
             </section>
             <nav>
                 <ul>
                     <li>
-                        <Link  to="/" className="left">Assinatura Mensal</Link>
+                        <Link  to="/CadastroMensal" className="left">Assinatura Mensal</Link>
                     </li>
                     <li >
-                        <Link to="/" className="right">Assinatura Anual</Link>
+                        <Link to="/CadastroAnual" className="right">Assinatura Anual</Link>
                     </li>
                 </ul>
             </nav>

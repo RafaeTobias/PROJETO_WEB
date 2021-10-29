@@ -44,3 +44,5 @@ const PrincipalMensal = () => {
         </S.Main>
     )
 }
+
+export default PrincipalMensal

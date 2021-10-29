@@ -189,3 +189,14 @@ input {
 .redes div img {
     width: 4rem;
 }
+#abaixaLogin {
+    padding-top: 17rem;
+}
+
+#abaixaBotao {
+    padding-top: 5rem;
+}
+#corLogin {
+    background-color: azure;
+}
+
